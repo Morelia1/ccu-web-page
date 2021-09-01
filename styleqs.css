@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(49, 49, 53);
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.slider{
+width: 95%;
+margin:auto;
+overflow:hi;
+}
+.slider ul{
+    display:flex;
+    padding:0;
+    width:50%;
+
+    animation: cambio 20s infinite;
+}
+.slider li{
+    width:100%;
+}
+.slider img{
+width: 100%;
+}
+@keyframes cambio{
+    8% {margin-left:0;}
+    20% {margin-left:0;}
+
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+
+    50% {margin-left -200%;}
+    70% {margin-left:-200%;}
+
+    75% {margin-left -300%;}
+    100% {margin-left:-300%;}
+
+
+
+}
+
+
+
+
+
+.ancho { 
+    width: 80%
+    heigth: 70px
+    
+    margin:auto;
+}
+.logo {
+    width: 30%;
+    height: 70px;
+    background-color: #005f73;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: #ca6702;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+#main-header {
+	background-color: #005f73;
+	width: 100%;
+	height: 70px;
+}	
+
+nav {
+	float: right;
+    
+    
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 10px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 60px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 5px;
+				text-decoration: none;
+                color :#ca6702;
+                text-transform:uppercase;
+                font-weight: bold;
+                letter-spacing: 1px;
+                font-family: Helvetica;
+
+			}
+			
+				nav ul li a:hover {
+					color:#EE9800;
+				}
+                
+                
+            
+                    #main-content .content {
+                        padding: 40px;
+                    }
+                    #main-footer {
+                        background: #333;
+                        color: rgb(21, 22, 14);
+                        text-align: center;
+                        padding: 20px;
+                        margin-top: 40px;
+                    }
+                        #main-footer p {
+                            margin: 0;
+                        }
+                        
+                        #main-footer a {
+                            color:#001219;
+                        }  
+
+                        #main-header {
+                            background-color: #005f73);
+                            
+                            height: 70px;
+                            
+                            width: 100%; 
+                            
+                            top: 0; 
+                            position: fixed; 
+                        }
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            font-family: Helvetica;
+                            color: rgb(241, 241, 241);
+                            background: #f2f2f2; 
+                            font-size: 1em;
+                            line-height: 1.5em;
+                            
+                            padding-top: 80px; 
+                        }
+
+                        .misionVision{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            padding: 20px;
+                        }
+                        .contenMV{
+                            width: 400px;
+                                                       border-radius: 0px;
+                            background-color: rgb(138, 122, 226);
+                            padding: 10px;
+                            margin: 20px;
+                            border-top-right-radius: unset;
+                        }
+                        .mvTitulo{
+                            padding: 10px;
+                            font-weight: bolder;
+                            font-size: 1.2em;
+                            text-align: center;
+                            font-family: helvetica;
+                        }
+
+                        .somos{
+                            width: 100%;
+                            padding: 50px;
+                          background-repeat: no-repeat;
+                            background-size: 100% ;
+                            
+                        }
+                        .somosText{
+                            background-color: #2557a1c0;
+                            color: #ffffff;
+                            padding: 10px;
+                            text-align: center;
+                            font-weight: bolder;
+                            font-size: 1.2em;
+                            font-family: helvetica;
+                        }
+                        .somosTextM{
+                            background-color:#EE9800;
+                            color: #ffffff;
+                            padding: 10px;
+                            text-align: center;
+                            font-weight: bolder;
+                            font-size: 1.2em;
+                            display: none;
+                            
+                            
+                        }
